@@ -16,6 +16,6 @@ Go to https://mitre-attack.github.io/attack-navigator/v3/enterprise/# and select
 
 
 # Future:
-    1. evolve this into how to get the most coverage with existing features (windows built in where possible)
-    2. define coverage methods and various options to reduce risk
-    3. sysmon coverage: https://raw.githubusercontent.com/olafhartong/sysmon-modular/master/attack_matrix/Sysmon-modular.json 
+    1. Evolve this into how to get the most coverage with existing features (windows built in where possible)
+    2. Define coverage methods and various options to reduce risk
+    3. Sysmon coverage: https://raw.githubusercontent.com/olafhartong/sysmon-modular/master/attack_matrix/Sysmon-modular.json 
