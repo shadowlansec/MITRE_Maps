@@ -1,0 +1,943 @@
+{
+	"name": "SentinelOne Detection Coverage",
+	"versions": {
+		"attack": "9",
+		"navigator": "4.3",
+		"layer": "4.2"
+	},
+	"domain": "enterprise-attack",
+	"description": "",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"Azure AD",
+			"Office 365",
+			"SaaS",
+			"IaaS",
+			"Google Workspace",
+			"PRE",
+			"Network",
+			"Containers"
+		]
+	},
+	"sorting": 1,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": true,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
+	},
+	"hideDisabled": true,
+	"techniques": [
+		{
+			"techniqueID": "T1548",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1548",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134",
+			"tactic": "privilege-escalation",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1087",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1098",
+			"tactic": "persistence",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071",
+			"tactic": "command-and-control",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1010",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1560",
+			"tactic": "collection",
+			"color": "#3182bd",
+			"comment": "SentinelOne CoverageSentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1119",
+			"tactic": "collection",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.008",
+			"tactic": "persistence",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.008",
+			"tactic": "privilege-escalation",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1110",
+			"tactic": "credential-access",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059",
+			"tactic": "execution",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1136",
+			"tactic": "persistence",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1543",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1543",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1543.003",
+			"tactic": "persistence",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1543.003",
+			"tactic": "privilege-escalation",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1485",
+			"tactic": "impact",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1074",
+			"tactic": "collection",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1213",
+			"tactic": "collection",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1140",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1561",
+			"tactic": "impact",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1573",
+			"tactic": "command-and-control",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.012",
+			"tactic": "privilege-escalation",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.012",
+			"tactic": "persistence",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1480",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1041",
+			"tactic": "exfiltration",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1203",
+			"tactic": "execution",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1212",
+			"tactic": "credential-access",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1211",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1068",
+			"tactic": "privilege-escalation",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1083",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1105",
+			"tactic": "command-and-control",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "collection",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "credential-access",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1185",
+			"tactic": "collection",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1112",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1106",
+			"tactic": "execution",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1135",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "credential-access",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1095",
+			"tactic": "command-and-control",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003",
+			"tactic": "credential-access",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1069",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1057",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "privilege-escalation",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1090",
+			"tactic": "command-and-control",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1012",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1219",
+			"tactic": "command-and-control",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1021",
+			"tactic": "lateral-movement",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1018",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1091",
+			"tactic": "lateral-movement",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1091",
+			"tactic": "initial-access",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1207",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1014",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "execution",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "persistence",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "privilege-escalation",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1113",
+			"tactic": "collection",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505",
+			"tactic": "persistence",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1218",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1218.010",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1558",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1553",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1553.003",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1082",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1016",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1033",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1552",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550",
+			"tactic": "lateral-movement",
+			"color": "",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1204",
+			"tactic": "execution",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "privilege-escalation",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "initial-access",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497",
+			"tactic": "defense-evasion",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497",
+			"tactic": "discovery",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1102",
+			"tactic": "command-and-control",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1047",
+			"tactic": "execution",
+			"color": "#3182bd",
+			"comment": "SentinelOne Coverage",
+			"enabled": false,
+			"metadata": [],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": true,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false
+}
