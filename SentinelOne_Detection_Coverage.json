@@ -31,23 +31,23 @@
 		"showAggregateScores": false,
 		"countUnscored": false
 	},
-	"hideDisabled": true,
+	"hideDisabled": false,
 	"techniques": [
 		{
 			"techniqueID": "T1548",
 			"tactic": "privilege-escalation",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1548",
 			"tactic": "defense-evasion",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -56,7 +56,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -65,7 +65,7 @@
 			"tactic": "privilege-escalation",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -74,7 +74,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -83,7 +83,7 @@
 			"tactic": "persistence",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -92,7 +92,7 @@
 			"tactic": "command-and-control",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -101,7 +101,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -110,7 +110,7 @@
 			"tactic": "collection",
 			"color": "#3182bd",
 			"comment": "SentinelOne CoverageSentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -119,25 +119,25 @@
 			"tactic": "collection",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1547",
 			"tactic": "persistence",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1547",
 			"tactic": "privilege-escalation",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -146,7 +146,7 @@
 			"tactic": "persistence",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -155,7 +155,7 @@
 			"tactic": "privilege-escalation",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -164,7 +164,7 @@
 			"tactic": "credential-access",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -173,7 +173,7 @@
 			"tactic": "execution",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -182,25 +182,25 @@
 			"tactic": "persistence",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1543",
 			"tactic": "persistence",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1543",
 			"tactic": "privilege-escalation",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -209,7 +209,7 @@
 			"tactic": "persistence",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -218,16 +218,16 @@
 			"tactic": "privilege-escalation",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1555",
 			"tactic": "credential-access",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -236,7 +236,7 @@
 			"tactic": "impact",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -245,7 +245,7 @@
 			"tactic": "collection",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -254,7 +254,7 @@
 			"tactic": "collection",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -263,7 +263,7 @@
 			"tactic": "collection",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -272,16 +272,16 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1561",
 			"tactic": "impact",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -290,25 +290,25 @@
 			"tactic": "command-and-control",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1546",
 			"tactic": "privilege-escalation",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1546",
 			"tactic": "persistence",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -317,7 +317,7 @@
 			"tactic": "privilege-escalation",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -326,7 +326,7 @@
 			"tactic": "persistence",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -335,7 +335,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -344,7 +344,7 @@
 			"tactic": "exfiltration",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -353,7 +353,7 @@
 			"tactic": "execution",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -362,7 +362,7 @@
 			"tactic": "credential-access",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -371,7 +371,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -380,7 +380,7 @@
 			"tactic": "privilege-escalation",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -389,7 +389,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -398,43 +398,43 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1574",
 			"tactic": "persistence",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1574",
 			"tactic": "privilege-escalation",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1574",
 			"tactic": "defense-evasion",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1562",
 			"tactic": "defense-evasion",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -443,7 +443,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -452,7 +452,7 @@
 			"tactic": "command-and-control",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -461,7 +461,7 @@
 			"tactic": "collection",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -470,7 +470,7 @@
 			"tactic": "credential-access",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -479,7 +479,7 @@
 			"tactic": "collection",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -488,7 +488,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -497,7 +497,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -506,7 +506,7 @@
 			"tactic": "execution",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -515,7 +515,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -524,7 +524,7 @@
 			"tactic": "credential-access",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -533,7 +533,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -542,7 +542,7 @@
 			"tactic": "command-and-control",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -551,7 +551,7 @@
 			"tactic": "credential-access",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -560,7 +560,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -569,25 +569,25 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1542",
 			"tactic": "defense-evasion",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1542",
 			"tactic": "persistence",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -596,7 +596,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -605,7 +605,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -614,7 +614,7 @@
 			"tactic": "privilege-escalation",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -623,7 +623,7 @@
 			"tactic": "command-and-control",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -632,7 +632,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -641,7 +641,7 @@
 			"tactic": "command-and-control",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -650,7 +650,7 @@
 			"tactic": "lateral-movement",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -659,7 +659,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -668,7 +668,7 @@
 			"tactic": "lateral-movement",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -677,7 +677,7 @@
 			"tactic": "initial-access",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -686,7 +686,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -695,7 +695,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -704,7 +704,7 @@
 			"tactic": "execution",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -713,7 +713,7 @@
 			"tactic": "persistence",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -722,7 +722,7 @@
 			"tactic": "privilege-escalation",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -731,7 +731,7 @@
 			"tactic": "collection",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -740,7 +740,7 @@
 			"tactic": "persistence",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -749,7 +749,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -758,25 +758,25 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1558",
 			"tactic": "credential-access",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1553",
 			"tactic": "defense-evasion",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -785,7 +785,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -794,7 +794,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -803,7 +803,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -812,34 +812,34 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1552",
 			"tactic": "credential-access",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1550",
 			"tactic": "defense-evasion",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1550",
 			"tactic": "lateral-movement",
-			"color": "",
+			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -848,7 +848,7 @@
 			"tactic": "execution",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -857,7 +857,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -866,7 +866,7 @@
 			"tactic": "persistence",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -875,7 +875,7 @@
 			"tactic": "privilege-escalation",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -884,7 +884,7 @@
 			"tactic": "initial-access",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -893,7 +893,7 @@
 			"tactic": "defense-evasion",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -902,7 +902,7 @@
 			"tactic": "discovery",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -911,7 +911,7 @@
 			"tactic": "command-and-control",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		},
@@ -920,7 +920,7 @@
 			"tactic": "execution",
 			"color": "#3182bd",
 			"comment": "SentinelOne Coverage",
-			"enabled": false,
+			"enabled": true,
 			"metadata": [],
 			"showSubtechniques": false
 		}
